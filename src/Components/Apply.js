@@ -11,11 +11,11 @@ function Apply() {
             <div class="container">
                 <div class="container text-center">
                     <div class="row">
-                        <div class="col">
-                            <img src={ifpb} class="img-fluid" alt=""></img>
+                        <div class="col-md-6">
+                            <img src={ifpb} class="img-fluid ifpb" alt=""></img>
                         </div>
-                        <div class="col">
-                            <div class="card bg-transparent" >
+                        <div class="col-md-6">
+                            <div class="card bg-transparent" id="card-apply" >
                                 <div class="card-body">
                                     
                                     <h6 class="my-text card-subtitle mb-2 text-body-secondary">Card subtitle</h6>

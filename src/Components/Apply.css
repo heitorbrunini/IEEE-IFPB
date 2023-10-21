@@ -18,10 +18,14 @@
   padding: 0;
 }
 
-img{
+img.ifpb{
   border-radius: 5px;
 }
 
 .my-text{
   color: white !important;
+}
+
+#card-apply{
+  margin-top: 15%;  
 }
