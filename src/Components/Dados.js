@@ -15,10 +15,10 @@ function Dados() {
                                 value={30}
                                 size='200px'
                             >
-                                <CircularProgressLabel color='blue.200'>800</CircularProgressLabel>
+                                <CircularProgressLabel color='blue.200'>+1.100</CircularProgressLabel>
                             </CircularProgress>
                         </div>
-                        <p className="mt-2">Projetos Entregues</p>
+                        <p className="mt-2">Ramos estudantis</p>
                     </div>
                     <div className="col-md-3 text-center">
                         <div>
@@ -29,7 +29,7 @@ function Dados() {
                                 value={30}
                                 size='200px'
                             >
-                                <CircularProgressLabel color='blue.200'>800</CircularProgressLabel>
+                                <CircularProgressLabel color='blue.200'>+400 K</CircularProgressLabel>
                             </CircularProgress>
                         </div>
                         <p className="mt-2">Membros</p>
@@ -42,10 +42,10 @@ function Dados() {
                                 value={30}
                                 size='200px'
                             >
-                                <CircularProgressLabel color='blue.200'>800</CircularProgressLabel>
+                                <CircularProgressLabel color='blue.200'>21</CircularProgressLabel>
                             </CircularProgress>
                         </div>
-                        <p className="mt-2">Grupos</p>
+                        <p className="mt-2">Membros no IFPB</p>
                     </div> <div className="col-md-3 text-center">
                         <div>
                             <CircularProgress
@@ -55,7 +55,7 @@ function Dados() {
                                 value={30}
                                 size='200px'
                             >
-                                <CircularProgressLabel color='blue.200'>800</CircularProgressLabel>
+                                <CircularProgressLabel color='blue.200'>+800 K</CircularProgressLabel>
                             </CircularProgress>
                         </div>
                         <p className="mt-2">Cafézinhos</p>

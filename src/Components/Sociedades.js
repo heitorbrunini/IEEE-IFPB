@@ -7,17 +7,17 @@ function Sociedades() {
                 <div class="row">
                     <div class="col-12">
                         <h3 class="main-title">
-                            Nossas Sociedades
+                            Sociedades do IEEE
                             <hr />
                         </h3>
                     </div>
 
                     <div class="col-md-4 service-box">
                         <i class="bi bi-amd"></i>
-                        <h4>Aplicativos Nativos</h4>
+                        <h4>CAS</h4>
                         <p>
-                            utilizamos o real poder dos dispositivos móveis construindo aplicativos nativos
-                        </p>
+                        Pesquisa, desenvolvimento e educação em áreas como teoria de circuitos, processamento de 
+                        sinais e sistemas de controle.</p>
                     </div>
                     <div class="col-md-4 service-box">
                     <i class="bi bi-bug"></i>

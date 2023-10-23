@@ -16,9 +16,9 @@ function Carousel() {
                         <img src={estudantes} class="d-block w-100" alt="..."></img>
                         <div class="container">
                             <div class="carousel-caption text-start">
-                                <h1>Example headline.</h1>
-                                <p class="opacity-75">Some representative placeholder content for the first slide of the carousel.</p>
-                                <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+                                <h1>Faça parte do ramo.</h1>
+                                <p class="opacity-75">Clique em saiba mais para se volutariar para as atividades do Ramo Estudantil.</p>
+                                <p><a class="btn btn-lg btn-primary" href="#">Saiba Mais</a></p>
                             </div>
                         </div>
                     </div>
@@ -26,9 +26,9 @@ function Carousel() {
                         <img src={estudantes2} class="d-block w-100" alt="..."></img>
                         <div class="container">
                             <div class="carousel-caption text-start">
-                                <h1>Example headline.</h1>
-                                <p class="opacity-75">Some representative placeholder content for the first slide of the carousel.</p>
-                                <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+                                <h1>Eventos do IEEE.</h1>
+                                <p class="opacity-75">Acompanhe os eventos que estão programados para serem feitos pelo ramo.</p>
+                                <p><a class="btn btn-lg btn-primary" href="#">Saiba Mais</a></p>
                             </div>
                         </div>
                     </div>
@@ -36,9 +36,9 @@ function Carousel() {
                         <img src={estudantes3} class="d-block w-100" alt="..."></img>
                         <div class="container">
                             <div class="carousel-caption text-start">
-                                <h1>Example headline.</h1>
-                                <p class="opacity-75">Some representative placeholder content for the first slide of the carousel.</p>
-                                <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+                                <h1>Cursos e Materiais</h1>
+                                <p class="opacity-75">Experimente os cursos e materiais disponibilizados pelo IEEE.</p>
+                                <p><a class="btn btn-lg btn-primary" href="#">Saiba Mais</a></p>
                             </div>
                         </div>
                     </div>
