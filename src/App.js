@@ -5,6 +5,8 @@ import Dados from './Components/Dados'
 import Sociedades from './Components/Sociedades';
 import Afiliados from './Components/Afiliados';
 import Apply from './Components/Apply'
+import Contatar from './Components/Contatar';
+import Footer from './Components/Footer'
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
      <Dados/>
      <Afiliados/>
      <Apply/>
+     <Contatar/>
+     <Footer/>
     </div>
   );
 }
