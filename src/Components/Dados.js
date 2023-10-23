@@ -1,4 +1,4 @@
-import "./Dados.css"
+import "./Dados.css"  
 import { CircularProgress, CircularProgressLabel } from '@chakra-ui/react'
 
 function Dados() {
