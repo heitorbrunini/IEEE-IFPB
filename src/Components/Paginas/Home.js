@@ -6,6 +6,8 @@ import Sociedades from "../Sociedades";
 import Dados from "../Dados";
 import Afiliados from "../Afiliados";
 import Apply from "../Apply";
+import Contatar from "../Contatar"
+import Footer from "../Footer";
 
 export default function Home(){ 
     return( 
@@ -17,6 +19,8 @@ export default function Home(){
             <Dados/>
             <Afiliados/>
             <Apply/>
+            <Contatar/>
+            <Footer/>            
         </div>
     )
 

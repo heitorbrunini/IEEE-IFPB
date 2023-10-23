@@ -29,18 +29,9 @@ function App() {
           <Route path="/aps" element={<APS />} />
           <Route path="/sscs" element={<SSCS />} />
         </Routes>
+
       </BrowserRouter>
-      <div className="App">
-        <Navbar />
-        <Carousel />
-        <Local />
-        <Sociedades />
-        <Dados />
-        <Afiliados />
-        <Apply />
-        <Contatar />
-        <Footer />
-      </div>
+      
 
     </>
 
