@@ -1,5 +1,5 @@
 import React from "react"; 
-import { Link, Outlet } from "react-router-dom";
+import { Link } from "react-router-dom";
 import logo from "../Assets/ieee-logo.png";
 import "./NavBar.css";
 
@@ -19,6 +19,9 @@ function Navbar() {
                         </li>
                         <li class="nav-item">
                             <Link class="nav-link" to="/ramo">O Ramo</Link>
+                        </li>
+                        <li class="nav-item">
+                            <Link class="nav-link" to="/blog">Blog</Link>
                         </li>
                         <li class="nav-item">
                             <Link class="nav-link" to="/eventos">Eventos</Link>
