@@ -1,11 +1,22 @@
 import React from "react"; 
-import Navbar from "../NavBar"; 
+import Navbar from "../NavBar";  
+import ContentAps from "../ContentAPS" 
+import ComponenteEvento from "../ComponenteEvento";
+import ProjetosAps from "../ProjetosAps";
+import Afiliados from "../Afiliados";
+import Contatar from "../Contatar";
+import Footer from "../footer";
 
 export default function APS(){ 
     return( 
         <div className="app"> 
-            <Navbar/> 
-            <h2>APS</h2>
-        </div>
+            <Navbar/>  
+            <ComponenteEvento/>
+            <ContentAps/>
+            <ProjetosAps/>
+            <Afiliados/> 
+            <Contatar/> 
+            <Footer/>
+        </div> 
     )
 }

@@ -7,7 +7,7 @@ import Dados from "../Dados";
 import Afiliados from "../Afiliados";
 import Apply from "../Apply";
 import Contatar from "../Contatar"
-import Footer from "../Footer";
+import Footer from "../footer";
 
 export default function Home(){ 
     return( 

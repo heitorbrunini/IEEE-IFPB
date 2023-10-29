@@ -6,7 +6,7 @@ import Sociedades from './Components/Sociedades';
 import Afiliados from './Components/Afiliados';
 import Apply from './Components/Apply'
 import Contatar from './Components/Contatar';
-import Footer from './Components/Footer'
+import Footer from './Components/footer'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./Components/Paginas/Home";
 import Eventos from "./Components/Paginas/Eventos";
