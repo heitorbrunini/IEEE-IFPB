@@ -1,9 +1,11 @@
 import React from "react";
 import Navbar from "../NavBar";
+import logo from "../../Assets/iee-logo-blue.png";
 import {
     Card, CardHeader, CardBody, CardFooter
     , Flex, Avatar, Box, Button, Image, Text, Heading
-} from '@chakra-ui/react'
+} from '@chakra-ui/react';
+
 
 export default function Blog() {
     return (
@@ -15,38 +17,32 @@ export default function Blog() {
                         <div class="d-flex flex-column flex-shrink-0 p-3 bg-body-tertiary">
                             <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
                                 <svg class="bi pe-none me-2" width="40" height="32"></svg>
-                                <span class="fs-4">Sidebar</span>
+                                <span class="fs-4"><img id="logo" src={logo}></img></span>
                             </a>
                             <hr></hr>
                             <ul class="nav nav-pills flex-column mb-auto">
                                 <li class="nav-item">
                                     <a href="#" class="nav-link active" aria-current="page">
                                         <svg class="bi pe-none me-2" width="16" height="16"></svg>
-                                        Home
+                                        Tudo
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#" class="nav-link link-body-emphasis">
                                         <svg class="bi pe-none me-2" width="16" height="16"></svg>
-                                        Dashboard
+                                        Documentos
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#" class="nav-link link-body-emphasis">
                                         <svg class="bi pe-none me-2" width="16" height="16"></svg>
-                                        Orders
+                                        Eventos
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#" class="nav-link link-body-emphasis">
                                         <svg class="bi pe-none me-2" width="16" height="16"></svg>
-                                        Products
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="nav-link link-body-emphasis">
-                                        <svg class="bi pe-none me-2" width="16" height="16"></svg>
-                                        Customers
+                                        Vídeos
                                     </a>
                                 </li>
                             </ul>
