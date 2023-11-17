@@ -1,6 +1,7 @@
 import './Local.css';
 import ifpb from "../Assets/dsc_0153.jpg";
 import { CheckIcon} from '@chakra-ui/icons'
+import Map from "./Map"
 
 function Local() {
     return (
@@ -15,7 +16,7 @@ function Local() {
                         </h3>
                     </div>
                     <div class="col-md-6">
-                        <img src={ifpb} class="img-fluid" alt=""></img>
+                        <Map/>
                     </div>
                     <div class="col-md-6">
                         <h3 class="about-title">
