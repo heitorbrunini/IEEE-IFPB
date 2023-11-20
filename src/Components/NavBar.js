@@ -28,19 +28,17 @@ function Navbar() {
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Grupos
+                                Sociedades
                             </a>
                             <ul class="dropdown-menu">
                                 <li><Link class="dropdown-item" to="/socieadadeComp">Sociedade de Computação</Link></li>
                                 <li><hr class="dropdown-divider"></hr></li>
-                                <li><Link class="dropdown-item" to="/sscs">SSCS</Link></li>
+                                <li><Link class="dropdown-item" to="/WIE">WIE</Link></li>
                                 <li><hr class="dropdown-divider"></hr></li>
-                                <li><Link class="dropdown-item" to="/socieadadeComp">Sociedade de Computação</Link></li>
+                                <li><Link class="dropdown-item" to="/COMSOC">COMSOC</Link></li>
                                 <li><hr class="dropdown-divider"></hr></li>
                                 <li><Link class="dropdown-item" to="/aps">APS</Link></li>
-                                <li><hr class="dropdown-divider"></hr></li>
-                                <li><Link class="dropdown-item" to="/ras">RAS</Link></li>
-
+                            
                             </ul>
                         </li>
                     </ul>

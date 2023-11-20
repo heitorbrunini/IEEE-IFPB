@@ -1,11 +1,11 @@
 import React from "react"; 
-import Navbar from "../NavBar"; 
+import Navbar from "../NavBar";
 
-export default function SSCS(){ 
+export default function  Comsoc() {
     return( 
         <div className="App"> 
             <Navbar/> 
-            <h2>SSCS</h2>
+            <h2>Sociedade Comsoc</h2>
         </div>
     )
 }
