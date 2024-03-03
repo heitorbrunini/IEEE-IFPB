@@ -38,6 +38,7 @@ function Footer() {
                         <h5>Desenvolvedores</h5>
                         <ul class="list-unstyled">
                             <li class="mb-2"><a href="https://github.com/heitorbrunini" target="_blank" rel="noopener">Heitor Brunini</a></li>
+                            <li class="mb-2"><a href="https://github.com/ArturFernandes1" target="_blank" rel="noopener">Artur Fernandes</a></li>
                             <li class="mb-2"><a href="https://github.com/EulerSobral" target="_blank" rel="noopener">Euler Sobral</a></li>
                         </ul>
                     </div>

@@ -1,6 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./Components/Paginas/Home";
-import Eventos from "./Components/Paginas/Eventos";
 import Ramo from "./Components/Paginas/Ramo";
 import SociedadeComp from "./Components/Paginas/SociedadeComp";
 import APS from "./Components/Paginas/APS";
@@ -14,7 +13,6 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/eventos" element={<Eventos />} />
           <Route path="/ramo" element={<Ramo />} />
           <Route path="/socieadadeComp" element={<SociedadeComp />} />
           <Route path="/aps" element={<APS />} />   

@@ -25,7 +25,55 @@ img.ifpb{
 .my-text{
   color: white !important;
 }
+.my-text{
+  margin-left: 40px;
+  margin-right: 25PX;
+  width: auto; /* Defina a largura desejada, por exemplo, 80% */
+}
+
+.card-subtitle{
+    font-size: 25px;
+  }
+@media screen and (max-width: 800px) {
+  .my-text{
+    text-align: justify;
+    width: auto; /* Defina a largura desejada, por exemplo, 80% */
+    margin: auto;
+    margin-bottom: 25px;
+  }
+} 
+@media screen and (max-width: 450px) {
+  .my-text{
+    text-align: justify;
+    margin-top: 20px;
+    width: auto; /* Defina a largura desejada, por exemplo, 80% */
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+  .card-subtitle{
+    font-size: 25px;
+    text-align: center;
+  }
+  
+  
+}
 
 #card-apply{
   margin-top: 15%;  
+}
+
+.containerbutton{
+  
+  justify-content: center; /* Alinhar horizontalmente */
+  align-items: center; /* Alinhar verticalmente */
+  color: #0DCAF0;
+  padding: 10px;
+  width: auto;
+  border: 2px solid #0DCAF0;
+  border-radius: 6px;
+  font-size: 19px; /* Defina o tamanho da fonte desejado */
+}
+.containerbutton:hover{
+  color: black;
+  background-color: #0DCAF0;
 }

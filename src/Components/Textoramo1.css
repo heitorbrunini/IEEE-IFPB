@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Adicionado para incluir as bordas e o preenchimento no cálculo da largura e altura */
+}
+
+.conteudo1{   
+    max-width: 1450px;
+    margin: 0 auto; /* Define margens automáticas para centralizar horizontalmente */
+    position: relative; /* Define a posição como relativa para que possamos centralizar verticalmente */
+    top: 50%; /* Move o contêiner para 50% da altura da janela de exibição */    
+}
+
+
+.containeramo1 {
+    margin-top: 50px;
+    max-width: 1450px;
+    margin-left: 80px;
+    margin-right: 60px;
+    text-align: justify;
+}
+
+.title1{  
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 45px;
+}
+
+.subtitle{
+    font-size: 24px;
+}
+
+p {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.imagem-responsiva {
+    max-width: 100%;
+    height: auto;
+    /* Definir uma largura máxima opcional */
+    max-width: 700px;
+    /* Definir uma altura máxima opcional */
+    max-height: 700px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+@media screen and (max-width: 450px) {
+    .containeramo1 {
+        
+        margin-top: 65px;
+        max-width: 1450px;
+        margin-left: 18px;
+        margin-right: 18px;
+        text-align: justify;
+    }
+    .title1{  
+        font-size: 24px;
+        margin-bottom: 20px;
+        margin-top: 45px;
+        margin-left: 18px;
+        margin-right: 18px;
+    }
+    
+    .subtitle{
+        margin-left: 13px;
+        margin-right: 20px;
+        font-size: 20px;
+    }
+    
+    p {
+        text-align: justify;
+        margin-bottom: 20px;
+    }
+}

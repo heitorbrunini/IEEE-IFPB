@@ -18,10 +18,10 @@ function Apply() {
                             <div class="card bg-transparent" id="card-apply" >
                                 <div class="card-body">
                                     
-                                    <h6 class="my-text card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
-                                    <p class="my-text card-text">Some quick example text to build on the card title and make up 
-                                    the bulk of the card's content.</p>
-                                    <button type="button" class="btn btn-outline-info btn-lg">Juntar-se</button>
+                                    <h6 class="my-text card-subtitle mb-2 text-body-secondary">Ramo Estudantil IFPB CG</h6>
+                                    <p class="my-text card-text">
+                                        Junte-se ao Ramo Estudantil IFPB da IEEE e cresça pessoal e profissionalmente enquanto faz amigos e deixa sua marca no IFPB. Não espere mais para se juntar a nós!</p>
+                                    <button type="button" class="containerbutton">Juntar-se</button>
                                 </div>
                             </div>
                         </div>
