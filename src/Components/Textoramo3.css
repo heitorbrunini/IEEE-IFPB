@@ -11,13 +11,9 @@
 }
 
 .containeramo3 {
-    max-width: 1450px;
     margin-left: 80px;
     margin-right: 60px;
     text-align: justify;
-    text-align: justify;
-    margin: 20 auto; /* Define margens automáticas para centralizar horizontalmente */
-    position: relative; /* Define a posição como relativa para que possamos centralizar verticalmente */
     top: 50%; /* Move o contêiner para 50% da altura da janela de exibição */
    
 }
