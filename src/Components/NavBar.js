@@ -28,8 +28,6 @@ function Navbar() {
                                 Sociedades
                             </a>
                             <ul class="dropdown-menu">
-                                <li><Link class="dropdown-item" to="/socieadadeComp">Sociedade de Computação</Link></li>
-                                <li><hr class="dropdown-divider"></hr></li>
                                 <li><Link class="dropdown-item" to="/WIE">WIE</Link></li>
                                 <li><hr class="dropdown-divider"></hr></li>
                                 <li><Link class="dropdown-item" to="/COMSOC">COMSOC</Link></li>

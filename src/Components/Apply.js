@@ -1,5 +1,5 @@
 import "./Apply.css";
-import ifpb from "../Assets/dsc_0153.jpg";
+import ifpb from "../Assets/oramo.jpg";
 
 function Apply() {
 

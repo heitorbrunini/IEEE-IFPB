@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../NavBar";
-import logo from "../../Assets/iee-logo-blue.png";
+import logo from "../../Assets/logo2iee.jpeg";
 import {
     Card, CardHeader, CardBody, CardFooter
     , Flex, Avatar, Box, Button, Image, Text, Heading
